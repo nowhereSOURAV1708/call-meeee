@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <!-- EditText for Caller Name -->
+    <EditText
+        android:id="@+id/etCallerName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Caller Name"
+        android:padding="10dp" />
+
+    <!-- EditText for Caller Number -->
+    <EditText
+        android:id="@+id/etCallerNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Caller Number"
+        android:layout_marginTop="20dp"
+        android:padding="10dp" />
+
+    <!-- Set Fake Call Button -->
+    <Button
+        android:id="@+id/btnSetCall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Set Fake Call"
+        android:layout_marginTop="20dp" />
+
+</LinearLayout>

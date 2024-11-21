@@ -1,0 +1,80 @@
+<!-- activity_call_screen.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/black"
+    android:gravity="center"
+    android:padding="30dp">
+
+    <!-- Caller Image -->
+
+
+    <!-- Caller Name -->
+
+    <!-- Caller Number -->
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="302dp"
+        android:layout_height="215dp"
+        app:srcCompat="@drawable/profile" />
+
+    <TextView
+        android:id="@+id/callerName"
+        android:layout_width="wrap_content"
+        android:layout_height="92dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:text="John Doe"
+        android:textColor="@android:color/white"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/callerNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+1 234 567 890"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="30dp"
+        android:layout_gravity="center" />
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="5dp"
+        android:background="@color/black">
+
+        <ImageView
+            android:id="@+id/btnAcceptCall"
+            android:layout_width="100dp"
+            android:layout_height="140dp"
+            android:layout_weight="1"
+            android:layout_marginTop="11dp"
+            android:background="@color/black"
+            android:clickable="true"
+            android:focusable="true"
+            app:srcCompat="@drawable/callg" />
+
+        <ImageView
+            android:id="@+id/btnRejectCall"
+            android:layout_width="100dp"
+            android:layout_height="165dp"
+            android:layout_weight="1"
+            android:background="@color/black"
+            android:clickable="true"
+            android:focusable="true"
+            app:srcCompat="@drawable/callrrr" />
+    </LinearLayout>
+
+
+</LinearLayout>
